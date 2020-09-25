@@ -1,0 +1,128 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    color: azure;
+    background-color: black;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+header {
+    background-color: brown;
+    color: black;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    line-height: 50px;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: azure;
+}
+
+.navbar li a:hover {
+    background-color: azure;
+    color: black;
+}
+
+.main_pic {
+    width: 1351px;
+    text-align: right;
+}
+
+
+/*プロフィール*/
+
+.profile {
+    width: 700px;
+    margin: 500px auto;
+}
+
+.features {
+    display: flex;
+    height: 220px;
+}
+
+.features:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.pro_pic {
+    width: 350px;
+    height: 220px;
+}
+
+.imgg {
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.info {
+    margin: auto;
+    padding: 30px;
+}
+
+a {
+    color: red;
+}
+
+
+/*趣味*/
+
+.hobby {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hobby_box {
+    margin: 2rem;
+    padding: 2rem;
+    width: 300px;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.yout {
+    height: 300px;
+    background-color: black;
+}
+
+.hobby_box h2 {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.imgg2 {
+    object-fit: cover;
+}
+
+.nav_top {
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
