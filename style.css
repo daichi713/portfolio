@@ -2,8 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-    color: azure;
-    background-color: black;
+    color: #f0f0f0;
+    background-color: #000;
 }
 
 .wrap {
@@ -56,6 +56,14 @@ h1 {
     margin: 500px auto;
 }
 
+.profile:hover .features:nth-child(even) {
+    flex-direction: row;
+}
+
+.profile:hover .features:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
 .features {
     display: flex;
     height: 220px;
@@ -63,6 +71,7 @@ h1 {
 
 .features:nth-child(even) {
     flex-direction: row-reverse;
+    background-color: #000;
 }
 
 .pro_pic {
@@ -102,6 +111,10 @@ a {
     color: black;
 }
 
+.hobby_box:hover {
+    transform: scale(1.2, 1.2);
+}
+
 .yout {
     height: 300px;
     background-color: black;
@@ -125,4 +138,6 @@ a {
 footer {
     text-align: center;
     margin-top: 100px;
+    padding: 10px;
+    background-color: #808080;
 }
