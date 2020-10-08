@@ -1,12 +1,12 @@
 'use strict'; {
     const images = [
-        'photo/chacha1.jpg',
-        'photo/chacha2.jpg',
-        'photo/chacha3.jpg',
-        'photo/chacha4.jpg',
-        'photo/chacha5.jpg',
-        'photo/chacha6.jpg',
-        'photo/chacha7.jpg',
+        'chachaphoto/chacha1.jpg',
+        'chachaphoto/chacha2.jpg',
+        'chachaphoto/chacha3.jpg',
+        'chachaphoto/chacha4.jpg',
+        'chachaphoto/chacha5.jpg',
+        'chachaphoto/chacha6.jpg',
+        'chachaphoto/chacha7.jpg',
     ];
     let currentIndex = 0;
 
